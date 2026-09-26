@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+src/jev_evaluation_poc.egg-info/PKG-INFO
+src/jev_evaluation_poc.egg-info/SOURCES.txt
+src/jev_evaluation_poc.egg-info/dependency_links.txt
+src/jev_evaluation_poc.egg-info/entry_points.txt
+src/jev_evaluation_poc.egg-info/requires.txt
+src/jev_evaluation_poc.egg-info/top_level.txt
+src/jev_poc/__init__.py
+src/jev_poc/cli.py
+src/jev_poc/evaluation.py
+src/jev_poc/providers.py
+src/jev_poc/runtime.py
+tests/test_app.py
+tests/test_evaluation.py
+tests/test_runtime.py

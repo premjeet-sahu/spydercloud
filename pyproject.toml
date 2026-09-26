@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jev-evaluation-poc"
+version = "0.2.0"
+description = "A reproducible Jev vs Amazon Bedrock decision-model evaluation"
+requires-python = ">=3.10"
+dependencies = [
+  "boto3>=1.34",
+  "requests>=2.31",
+  "streamlit>=1.41",
+]
+
+[project.scripts]
+jev-poc = "jev_poc.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

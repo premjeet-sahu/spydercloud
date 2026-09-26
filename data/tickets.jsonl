@@ -1,0 +1,33 @@
+{"id":"T001","text":"I was charged twice for order 8821. Please refund the duplicate charge.","route":"billing","urgent":false,"refund_requested":true,"notes":"Explicit duplicate-charge refund"}
+{"id":"T002","text":"Where can I download the invoice for last month's subscription?","route":"billing","urgent":false,"refund_requested":false,"notes":"Routine invoice request"}
+{"id":"T003","text":"Our corporate card was declined, but the bank says it is fine. We need to renew by 5 PM today.","route":"billing","urgent":true,"refund_requested":false,"notes":"Billing with a hard deadline"}
+{"id":"T004","text":"Is the annual plan refundable if we decide not to proceed?","route":"billing","urgent":false,"refund_requested":false,"notes":"Asks about policy but does not request a refund"}
+{"id":"T005","text":"Please reverse the $79 charge and return the money to my card.","route":"billing","urgent":false,"refund_requested":true,"notes":"Refund paraphrase"}
+{"id":"T006","text":"The tax amount on invoice INV-44 appears incorrect. Can someone explain it?","route":"billing","urgent":false,"refund_requested":false,"notes":"Invoice dispute without refund request"}
+{"id":"T007","text":"We cannot process any customer payments in production. This is blocking checkout for everyone.","route":"technical","urgent":true,"refund_requested":false,"notes":"Technical outage despite payment language"}
+{"id":"T008","text":"The mobile app crashes whenever I upload a PDF.","route":"technical","urgent":false,"refund_requested":false,"notes":"Clear defect"}
+{"id":"T009","text":"Your API returns HTTP 503 for every request. Our launch starts in two hours; please help immediately.","route":"technical","urgent":true,"refund_requested":false,"notes":"Technical incident and deadline"}
+{"id":"T010","text":"How do I configure the Salesforce integration? I am not seeing an error.","route":"technical","urgent":false,"refund_requested":false,"notes":"Technical how-to"}
+{"id":"T011","text":"The dashboard total is different from the exported CSV. Could this be a bug?","route":"technical","urgent":false,"refund_requested":false,"notes":"Possible data defect"}
+{"id":"T012","text":"Password reset emails arrive, but the link opens a blank page.","route":"technical","urgent":false,"refund_requested":false,"notes":"Technical failure rather than account administration"}
+{"id":"T013","text":"Production has been down since 09:10 and no users can sign in. This needs attention now.","route":"technical","urgent":true,"refund_requested":false,"notes":"Clear outage"}
+{"id":"T014","text":"Could you send pricing for 500 seats and details of your enterprise plan?","route":"sales","urgent":false,"refund_requested":false,"notes":"Enterprise quote"}
+{"id":"T015","text":"We are comparing vendors this week. Can I book a product demo tomorrow?","route":"sales","urgent":true,"refund_requested":false,"notes":"Sales request with near-term deadline"}
+{"id":"T016","text":"Does the professional plan include SSO and audit logs?","route":"sales","urgent":false,"refund_requested":false,"notes":"Pre-purchase plan question"}
+{"id":"T017","text":"Please prepare a quote for the analytics add-on. We have not purchased yet.","route":"sales","urgent":false,"refund_requested":false,"notes":"Explicit quote"}
+{"id":"T018","text":"I want to understand volume discounts before expanding from 20 to 200 users.","route":"sales","urgent":false,"refund_requested":false,"notes":"Expansion pricing"}
+{"id":"T019","text":"Can your team provide a security review and trial environment for our evaluation?","route":"sales","urgent":false,"refund_requested":false,"notes":"Pre-sales evaluation"}
+{"id":"T020","text":"I changed phones and cannot access my authenticator. Please restore access to my account.","route":"account","urgent":false,"refund_requested":false,"notes":"Account access"}
+{"id":"T021","text":"An employee left today. Remove them as account owner before they can make changes.","route":"account","urgent":true,"refund_requested":false,"notes":"Urgent account administration"}
+{"id":"T022","text":"Please update the email address associated with my profile.","route":"account","urgent":false,"refund_requested":false,"notes":"Profile administration"}
+{"id":"T023","text":"My account is locked after too many password attempts.","route":"account","urgent":false,"refund_requested":false,"notes":"Account lockout"}
+{"id":"T024","text":"Delete my workspace and all users at the end of the month.","route":"account","urgent":false,"refund_requested":false,"notes":"Account lifecycle request"}
+{"id":"T025","text":"I need the primary administrator role transferred to our new IT lead by noon.","route":"account","urgent":true,"refund_requested":false,"notes":"Account change with deadline"}
+{"id":"T026","text":"Thank you for the quick response yesterday. Everything is working now.","route":"other","urgent":false,"refund_requested":false,"notes":"No action required"}
+{"id":"T027","text":"Do you have an office in Singapore?","route":"other","urgent":false,"refund_requested":false,"notes":"General company question"}
+{"id":"T028","text":"I found a typo in your public documentation on the getting-started page.","route":"other","urgent":false,"refund_requested":false,"notes":"Documentation feedback"}
+{"id":"T029","text":"Please add dark mode someday. No rush, just a suggestion.","route":"other","urgent":false,"refund_requested":false,"notes":"Feature suggestion with explicit non-urgency"}
+{"id":"T030","text":"Your status page says all systems operational. Just letting you know the timestamp format is confusing.","route":"other","urgent":false,"refund_requested":false,"notes":"Feedback mentioning operations"}
+{"id":"T031","text":"We need an answer ASAP: what time does your webinar start?","route":"other","urgent":true,"refund_requested":false,"notes":"Explicit urgency without business outage"}
+{"id":"T032","text":"I appreciate the refund you issued last week; it has arrived.","route":"other","urgent":false,"refund_requested":false,"notes":"Mentions refund but makes no request"}
+

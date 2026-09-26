@@ -1,0 +1,2 @@
+[console_scripts]
+jev-poc = jev_poc.cli:main
