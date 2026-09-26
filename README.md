@@ -262,28 +262,3 @@ ticket -> Jev decision signals -> code policy -> Bedrock drafts response -> huma
 ```
 
 The key architectural question is therefore not "Jev or Bedrock?" It is "which judgments deserve a specialized decision model, and which steps still require deterministic code or a generative model?"
-
-## Optional AWS production shape after the POC
-
-Do not build this until the local evaluation passes. A modest AWS pilot would use:
-
-- API Gateway or an existing support event source.
-- Lambda for redaction, Jev calls, threshold policy, and Bedrock response generation when needed.
-- SQS with a dead-letter queue for retries and backpressure.
-- DynamoDB or S3 for prediction logs, model version, thresholds, latency, and later human outcomes.
-- Secrets Manager for the TypeSafe API key.
-- CloudWatch metrics for p50/p95 latency, failures, low-confidence rate, drift, and human overrides.
-
-Avoid sending the TypeSafe key to a browser or mobile client. Call Jev from trusted server-side code, apply timeouts and bounded retries, log the versioned model returned by the API, and pin thresholds to that model version.
-
-## Recommended decision after the evaluation
-
-Use three possible outcomes, not a forced yes/no:
-
-- **Adopt for bounded decisions** if Jev materially improves latency/cost while meeting quality and calibration gates.
-- **Use Bedrock only** if structured Bedrock calls meet the same gates and the operational simplicity of one vendor outweighs Jev's advantage.
-- **Hybrid** if Jev is strong for triage and scoring while Bedrock remains necessary for explanations, summarization, and generated responses.
-
-Record the result as a one-page decision: use case, frozen dataset, model versions, metric table, failure examples, security constraints, unit economics at expected monthly volume, and a go/no-go recommendation.
-
-Use `POV_TEMPLATE.md` to turn the final benchmark into that stakeholder-ready point of view.
