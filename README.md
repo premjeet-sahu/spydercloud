@@ -1,1 +1,0 @@
-Please refer to AWS Solutions Document for solution details
