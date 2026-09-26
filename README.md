@@ -19,7 +19,7 @@ To view a specific PoC:
 | PoC            | Branch          | Description                                                      |
 |----------------|-----------------|------------------------------------------------------------------|
 | Serverless 2FA | `serverless2fa` | A simple serverless proof of concept using AWS Lambda.           |
-| Jev AI         | `jevai`         | A comparative analysis of Classifier Models Vs Reasoning Models. |
+| Jev AI         | `jevai-pro`     | A comparative analysis of Classifier Models Vs Reasoning Models. |
 
 ## Branch Convention
 
